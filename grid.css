@@ -1,0 +1,505 @@
+
+
+
+/*get flashig fin effekt på text om man önskar :)*/
+.NEONpinktxt {
+    color: rgb(0, 0, 0);
+     
+    text-shadow: 0 0 10px rgb(255, 252, 54), 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ffed4e, 0 0 70px #fff068, 0 0 80px #ffe600, 0 0 100px #eeff00, 0 0 150px #ffd000;
+    }
+    .NEONbluetxt {
+    color: #fff;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #00DEFF, 0 0 70px #00DEFF, 0 0 80px #00DEFF, 0 0 100px #00DEFF, 0 0 150px #00DEFF;
+    }
+  /**/
+  
+  
+  
+  /*används för placering av övre meny/logga etc*/
+  
+  div.c {
+    font-size: 38px;
+    margin-top:-27px;
+  }
+  
+  div.q{
+  position:absolute;
+    
+    margin-left: 400px;
+  }
+  
+  
+  div.u{
+  position:absolute;
+    margin-left: 370px;
+  }
+  
+  
+  
+  img.w {width:100%; height:260px;}
+  
+  /**/
+  
+  
+  
+  
+  
+  
+  
+  div.a {
+    text-align: center;
+  }
+  
+  
+  
+  
+  .italic {
+    font-style: italic;
+  }
+  
+  
+  h1 {color:rgb(255, 145, 0)}
+  /* Thick yellow border */
+  hr.new4 {
+      border: 2px solid #4CAF50;
+    }
+  
+  
+  
+  /* -------------------grid items för grid/navigering---------------------------------*/
+  
+  .item {
+      background-color: transparent;         /*   transparent bakgrund till grid-block*/
+  }
+  
+  .itempink{                                 /* */         
+      background-color: #fdd835;
+  }
+  
+  .item-1 {                                /* */
+      grid-column: 1/2;
+      grid-row: 1/2;
+  
+  }
+  
+  .item-2 {                                  /* grid för meny*/
+      grid-column: 3/4;
+      grid-row: 1/2;
+     min-width: 600px;
+     margin-left:20px;
+     min-height: 100%;
+    
+  }
+  
+  .item-3 {                          /* */
+      grid-column: 1/4;
+      grid-row: 3/4;
+      margin-top:170px;
+      height:100px;
+  
+     
+   
+  }
+  
+  .item-4 {                           /* */
+      grid-column: 1/2;
+      grid-row: 2/3;
+      margin-left: 50px;
+      margin-right:50px;
+    
+  }
+  
+  
+  
+  .item-7{
+  grid-column: 3/4;
+  grid-row: 1/2;
+  background-color:transparent;
+  min-width: 550px;
+  
+  }
+  
+  .item-8{
+  
+    grid-column: 1/4;
+    grid-row:2/3;
+    margin-right: 3px;
+  }
+  .item-10{
+  
+    grid-column:1/4;
+    grid-row:3/4;
+    margin-top: 8px;
+   
+    
+  
+  }
+  
+  
+  .item-11{
+    grid-column:1/4;
+    grid-row:4/5;
+    
+    
+    }
+    
+    .item-13{
+      grid-column: 1/4;
+      grid-row: 3/5;
+  margin-bottom: 0px;
+    }
+    
+  
+  
+  .gridcontainer {                     /*  sätter storlek på gridblock i Index*/
+      display: grid;
+      grid-gap: 3px;
+      width: 100%;
+      height:auto;
+      margin:auto;
+    
+      grid-template-columns: 10% 30% 59.5% 50% 80% 80% ;
+  
+      grid-template-rows: 60px 300px 500px 100% 100% ;
+  }
+    
+  
+  .centered {                  /* Centrerar (typ) text samt skriver text ovanpå en bild*/
+      position:absolute; 
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  
+    }
+  
+    ul.extra{      /* */
+  
+      line-height: 60%;
+  }
+  
+  .list-unstyled {               /* för att göra oordnad lista utan prickar*/
+      list-style: none;
+      margin-left: 0;
+      padding-left: 0;
+  }
+  
+  
+  .item2 {                        /* */
+  
+      background-color: transparent;
+      width: 840px;
+  
+  }
+  
+  .gridcontainer2 {           /* */
+      display: grid;
+      grid-gap: 3px;
+      width: 900px;
+     
+  
+      grid-template-columns: 10% 33% 50% ;
+  
+      grid-template-rows: 60px 100px;
+  }
+  
+  .itemmargin {                     /* */
+  
+     width: 640px;
+     margin-left: 100px;
+    
+  }
+  
+  
+  
+  
+  /* ------------------------saker för drop down knapp------------------------------*/
+  /* Dropdown Button */
+  .dropbtn {
+      background-color: #fdd835;
+      color: black;
+      padding: 10px;
+      font-size: 14px;
+      border: none;
+    }
+    
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #fffedd;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    /* Links inside the dropdown */
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {background-color:#F8FFA7;}
+    
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {display: block;}
+    
+    /* Change the background color of the dropdown button when the dropdown content is shown */
+    .dropdown:hover .dropbtn {background-color: #3e8e41;}
+  
+  /*------------------------------------------------------------------------*/
+  
+  
+  img.img1 {   /* gör bild halvtransparent (homerbilder i knappar)*/
+      opacity: 0.5;
+  }
+    
+  
+  
+  .column2 { /* Används för att göra de 3 textspalterna*/
+      float: left;
+      width: 30%;
+      margin-left:14px;
+    
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  
+  
+  
+  
+  
+    /*-----------------------------scrollbar-------------------------------------------------------------*/
+  
+  /* width */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(247, 204, 124);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: orange;
+  }
+  
+  
+  #style-10::-webkit-scrollbar-track
+  {
+  
+      background-color: #F5F5F5;
+      border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar
+  {
+      width: 10px;
+      background-color: rgb(255, 115, 0);
+  }
+  
+  ::-webkit-scrollbar-thumb
+  {
+      background-color: rgb(209, 125, 0);
+      border-radius: 10px;
+      background-image: -webkit-linear-gradient(90deg,
+   rgba(255, 255, 255, 0.2) 25%,
+      transparent 25%,
+      transparent 50%,
+      rgba(255, 255, 255, 0.2) 50%,
+  rgba(255, 255, 255, 0.2) 75%,
+   transparent 75%,
+   transparent)
+  }
+  
+  
+  /*-------------------------------------------------------------------------------------------------------------*/
+  
+  
+  /* 3D text*/
+  .threeD {
+    color: darkgrey;
+    white-space: nowrap;
+    position: absolute;
+  
+    top: 280px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+    font-family: sans-serif;
+    letter-spacing: 0.1em;
+    transition: 0.3s;
+    text-shadow: 1px 1px 0 rgb(0, 0, 0), 1px 2px 0 rgb(0, 0, 0), 1px 3px 0 rgb(0, 0, 0), 1px 4px 0 grey,
+      1px 5px 0 rgb(0, 0, 0), 1px 6px 0 rgb(0, 0, 0), 1px 7px 0 rgb(0, 0, 0), 1px 8px 0 grey,
+      5px 13px 15px black;
+  }
+  
+  .threeD:hover {
+    transition: 0.3s;
+    transform: scale(1.1)translate(-50%, -50%);
+    text-shadow: 1px -1px 0 rgb(0, 0, 0), 1px -2px 0 rgb(0, 0, 0), 1px -3px 0 rgb(0, 0, 0),
+      1px -4px 0 grey, 1px -5px 0 grey, 1px -6px 0 grey, 1px -7px 0 grey,
+      1px -8px 0 grey, 5px -13px 15px black, 5px -13px 25px #808080;
+  }
+  
+  
+  /*------------------------------------------------------------------------------------------*/
+  
+  
+  /* Place the navbar at the bottom of the page, and make it stick */
+  #footer {
+    background-color: #fdd835;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  #footer img {
+      height:40px;
+  padding:10px;
+  }
+  
+  
+  
+  /*----------------------------------------------------------------------------------*/
+  
+  
+  body {
+      font-family: Tahoma;
+  }
+  
+  header {
+      text-align: center;
+  }
+  
+  #calendar {
+      width: 100%;	
+  }
+  
+  #calendar a {
+      color: #8e352e;
+      text-decoration: none;
+  }
+  
+  #calendar ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      width: 100%;
+  }
+  
+  #calendar li {
+      display: block;
+      float: left;
+      width:14.342%;
+      padding: 5px;
+      box-sizing:border-box;
+      border: 1px solid #ccc;
+      margin-right: -1px;
+      margin-bottom: -1px;
+  }
+  
+  #calendar ul.weekdays {
+      height: 40px;
+      background: #8e352e;
+  }
+  
+  #calendar ul.weekdays li {
+      text-align: center;
+      text-transform: uppercase;
+      line-height: 20px;
+      border: none !important;
+      padding: 10px 6px;
+      color: #fff;
+      font-size: 13px;
+  }
+  
+  #calendar .days li {
+      height: 180px;
+  }
+  
+  #calendar .days li:hover {
+      background: #d3d3d3;
+  }
+  
+  #calendar .date {
+      text-align: center;
+      margin-bottom: 5px;
+      padding: 4px;
+      background: #333;
+      color: #fff;
+      width: 20px;
+      border-radius: 50%;
+      float: right;
+  }
+  
+  #calendar .event {
+      clear: both;
+      display: block;
+      font-size: 13px;
+      border-radius: 4px;
+      padding: 5px;
+      margin-top: 40px;
+      margin-bottom: 5px;
+      line-height: 14px;
+      background: #e4f2f2;
+      border: 1px solid #b5dbdc;
+      color: #009aaf;
+      text-decoration: none;
+  }
+  
+  #calendar .event-desc {
+      color: #666;
+      margin: 3px 0 7px 0;
+      text-decoration: none;	
+  }
+  
+  #calendar .other-month {
+      background: #f5f5f5;
+      color: #666;
+  }
+  
+  /* ============================
+                  Mobile Responsiveness
+     ============================*/
+  
+  
+  @media(max-width: 768px) {
+  
+      #calendar .weekdays, #calendar .other-month {
+          display: none;
+      }
+  
+      #calendar li {
+          height: auto !important;
+          border: 1px solid #ededed;
+          width: 100%;
+          padding: 10px;
+          margin-bottom: -1px;
+      }
+  
+      #calendar .date {
+          float: none;
+      }
+  }

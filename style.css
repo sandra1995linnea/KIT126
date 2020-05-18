@@ -1,9 +1,11 @@
 body {
     margin: 0px;
     padding: 0px;
+    width: 100%
 }
 #container {
     background-color: white;
+    width: 100%;
     
 }
 
@@ -16,7 +18,8 @@ nav {
 }
 
 
-img{
+
+#logo img{
     position: absolute;
     margin-top: 10px;
     margin-left: 10px;
@@ -71,54 +74,49 @@ li:hover> a{
     background-color: white;
     padding-right: 50px;
     padding-left: 50px;
-    padding-top: 80px;
+    padding-top: 100px;
+    width: 75%;
 }
 
 #footer {
     background-color: #fdd835;
-    padding: 60px;
-    margin-left: 0px;
-    padding-left: 5px;
+    padding: 20px;
     width: 100%;
-    height: 160px;
-}
-
-#footer ul{
-    line-height: 60px;
-    margin: 0 0 0 300px;
-    padding: 0px; 
-    margin-left: -20px;  
-}
-
-#footer li{
-    background-color: #fdd835;
-    list-style: none;
-    float: left;
-    position: relative;
-    margin: 0px;
-    padding: 10px; 
-    margin-top: -25px;
-         
-}
-
-#footer ul li a{
-    text-align: center;
-    font-family: sans-serif;
-    text-decoration: none;
-    display: block;
-    width: 150px;
     height: 60px;
-    color: black;   
-  
+
 }
 
-#footer ul ul{
-    position: absolute; 
-    visibility: visible;
-    margin-left: 0px;   
+#footer img {
+    height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-.p1{
-    font-family: cursive;
+h3 {
+    font-family: "georgia";
+    font-size: 2.5em;
 }
 
+h2 {
+    font-family: "georgia";
+    font-size: 1.5em;
+}
+p {
+    font-family: "georgia";
+    font-size: 1em;
+}
+.bold {
+    font-weight: bold;
+}
+
+.containedarticle {
+    border: 5px solid #fdd835;;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.welcome{
+    font-weight: bold;
+    font-size: 1em;
+    padding-left: 20px;;
+}
