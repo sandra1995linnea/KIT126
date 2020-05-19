@@ -262,14 +262,34 @@
       opacity: 0.5;
   }
     
-  
-  
+ 
   .column2 { /* Används för att göra de 3 textspalterna*/
       float: left;
       width: 30%;
       margin-left:14px;
     
     }
+
+.column4 { /* Används för att göra de 2 textspalterna*/
+    float: left;
+    width: 48%;
+    margin:14px;
+ }
+
+.kolumn1 { /* Används för att göra sida med 1 textspalterna*/
+    float: left;
+    text-align: center;
+    width: 96%;
+    margin:14px;
+}
+
+.columnpictures1{
+    float: left;
+    text-align: center;
+    width: 96%;
+    margin:14px;
+    padding-bottom: 70px;
+}
     
     /* Clear floats after the columns */
     .row:after {
@@ -480,6 +500,24 @@
       color: #666;
   }
   
+.scrollbox{
+max-height: 150px;
+margin-bottom: 20px;
+padding-bottom: 10pX;
+overflow:auto;
+width: 100%;
+border:solid;
+border-width: 2px;
+border-color: rgb(231, 170, 0);
+}
+
+.centerdheadline {
+   padding:30px;
+   position: absolute;
+   text-align: center;
+   width: 96%;
+}
+
   /* ============================
                   Mobile Responsiveness
      ============================*/
@@ -501,5 +539,10 @@
   
       #calendar .date {
           float: none;
+      }
+
+      p.a{
+          display: block;
+          line-height: 1.5em;
       }
   }
