@@ -87,7 +87,7 @@
       grid-row: 1/2;
      min-width: 600px;
      margin-left:20px;
-     min-height: 100%;
+     min-height: 100px;
     
   }
   
@@ -541,8 +541,5 @@ border-color: rgb(231, 170, 0);
           float: none;
       }
 
-      p.a{
-          display: block;
-          line-height: 1.5em;
-      }
+      
   }
